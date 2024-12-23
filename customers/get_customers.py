@@ -7,7 +7,7 @@ def get_customers():
 
     try:
 
-        headers = {'x-api-key': 'your-api-key-here'}
+        headers = {'x-api-key': 'oiw2gjo0YQ4GC0JmwtvhO3VgUTRs5krrmjYXOaBh'}
         #  query params to get the last 10 customers added
         params = {'limit': 10, 'filter': 'active=true', 'sort-by': '-dateAcquired'}
         # Perform the GET request
